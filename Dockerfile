@@ -7,3 +7,5 @@ RUN DEBIAN_FRONTEND=noninteractive \
   && rm -rf /var/lib/apt/lists/*
 RUN useradd -ms /bin/bash apprunner
 USER apprunner
+
+EXPOSE 8000
